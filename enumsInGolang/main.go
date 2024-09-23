@@ -15,9 +15,9 @@ const (
 
 //CONTANTS IMPLEMENTATION WITH IOTA
 const (
-	JANUARY = iota
-	FEBRUARY
-	MARCH
+	JANUARY  = iota // January is 0
+	FEBRUARY        // February is 1 (increment 1 from last value)
+	MARCH           // March is 2 (increment 1 from last value)
 	APRIL
 	MAY
 	JUNE
