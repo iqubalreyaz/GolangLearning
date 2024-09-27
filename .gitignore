@@ -1,0 +1,8 @@
+# Ignore the .vscode folder
+.vscode/
+
+# Ignore all main.exe files in any directory or subdirectory
+**/main.exe
+
+# Ignoring vendor folder
+vendor/
